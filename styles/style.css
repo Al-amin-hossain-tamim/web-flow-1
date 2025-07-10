@@ -141,3 +141,61 @@ color: rgba(37, 36, 50, 0.5);
     margin-top: 0px;
 }
 /* productive user section  style end*/
+
+
+/* user review section style start */
+.users-say{
+    max-width: 1140px;
+    margin: 137px auto;
+    
+}
+.users-say-title{
+    font-size: 42px;
+    font-weight: 800;
+    color: #252432;
+}
+.user-reviews{
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+    
+}
+.user-review{
+    max-width: 366px;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255,0.5);
+    border: 1px solid #F2EDED;
+}
+.img-div{
+    padding: 24px 0px 10px 24px;
+}
+.user-review img{
+    padding-right: 4px;
+}
+.review-title{
+    font-size: 20px;
+    padding-left: 24px;
+}
+.reveiw-description{
+    padding-left: 24px;
+}
+.reviewer-info{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding-left: 24px;
+}
+.reviewer-info img{
+    border-radius: 50%;
+}
+.reviewer-name{
+    margin-bottom: 0px;
+    color: #757575;
+}
+.reviewer-date{
+    margin-top: 0px;
+    color: #B3B3B3;
+}
+
+
+/* user review section style end */
