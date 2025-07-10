@@ -199,3 +199,24 @@ color: rgba(37, 36, 50, 0.5);
 
 
 /* user review section style end */
+
+/* ready section style start */
+
+.ready-to-focus{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.ready-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+.ready-sub-title{
+    color: rgba(0, 0, 0,0.5);
+}
+.ready-img{
+    margin: 20px 150px 71px;
+    border-radius:48px;
+}
+/* ready section style end */
