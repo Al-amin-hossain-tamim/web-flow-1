@@ -205,6 +205,8 @@ color: rgba(37, 36, 50, 0.5);
 .ready-to-focus{
     max-width: 1140px;
     margin: 0 auto;
+    border-radius: 14px;
+    background-color: #FFFFFF;
 }
 
 .ready-title{
@@ -220,3 +222,57 @@ color: rgba(37, 36, 50, 0.5);
     border-radius:48px;
 }
 /* ready section style end */
+
+
+/* get in touch section style start */
+.lets-get-in-touch{
+    max-width:1140px;
+    margin: 0 auto;
+    margin-top: 92px;
+}
+
+.get-in-touch{
+    display: flex;
+    justify-content: space-between;
+}
+.get-in-touch-content{
+    font-size: 90px;
+    font-weight: bold;
+    color: #000000;
+    margin-right: 0px;
+}
+.form{
+    
+}
+.form label{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    
+}
+.form input{
+    display: block;
+    font-size: 20px;
+    color: rgba(0, 0, 0,0.5);
+    padding: 20px 245px 20px 32px;
+    margin-top:10px;
+    margin-bottom: 19px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #D6DDED;
+}
+.form textarea{
+    font-size: 20px;
+    color: rgba(0, 0, 0,0.5);
+    padding-left: 32px;
+    padding-top: 20px;
+    margin-top: 10px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    color:#FFFFFF;
+}
+.form-button{
+    margin-top: 19px;
+    padding: 19px 210px;
+}
+/* get in touch section style end */
