@@ -102,3 +102,42 @@ color: rgba(37, 36, 50, 0.5);
     border-radius: 48px;
 }
 /* action section style end */
+
+/* productive user section  style start*/
+
+.productive{
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: rgba(78, 71, 255,0.1);
+}
+.joined-thousand{
+    max-width: 856px;
+    margin: 0 auto;
+    padding: 50px 142px;
+}
+.joind-thousand-title{
+    font-size: 38px;
+    font-weight: 800;
+    color: #252432;
+    margin-bottom: 0px;
+}
+
+.productive-users{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+
+}
+.productive-users h2{
+    font-size: 80px;
+    font-weight: 800;
+    color: #4E47FF;
+    margin-bottom: 5px;
+
+}
+.productive-users p{
+    font-size: 20px;
+    color: rgb(0, 0, 0,0.5);
+    margin-top: 0px;
+}
+/* productive user section  style end*/
