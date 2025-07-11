@@ -101,6 +101,9 @@ nav li {
 }
 
 /* banner section style end */
+main{
+    margin-bottom: 14px;
+}
 
 
 /* action section style start*/
@@ -339,16 +342,6 @@ nav li {
     border: 1px solid #D6DDED;
 }
 
-/* .form textarea {
-    font-size: 20px;
-    color: rgba(0, 0, 0, 0.5);
-    padding-left: 32px;
-    padding-top: 20px;
-    margin-top: 10px;
-    border: 1px solid #D6DDED;
-    border-radius: 10px;
-    color: #FFFFFF;
-} */
 
 .form-button {
     width: 100%;
