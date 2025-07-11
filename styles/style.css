@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 /* use google font  */
 /* inter font */
 .inter-font1 {
@@ -16,6 +21,11 @@
 
 /* use google font  */
 
+/* body section  */
+body {
+    background-color: #F5F8FF;
+}
+
 /* shared stye section start */
 .btn-primary {
     text-decoration: none;
@@ -25,7 +35,8 @@
     border-radius: 5px;
     font-weight: 800;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
 
@@ -33,7 +44,7 @@
 
 /* header style  */
 
-header{
+header {
     background-image: url('../images/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,134 +76,163 @@ nav li {
 
 
 /* banner section style start */
-.banner{
-    padding: 155px 267px;
+.banner {
+    padding: 155px 0px;
 }
-.banner-content{
+
+.banner-content {
     font-size: 65px;
     font-weight: 800;
     color: #252432;
 }
-.stay-focused{
+
+.stay-focused {
     margin-top: 35px;
 }
+
 /* banner section style end */
+
 
 /* action section style start*/
 
-.action{
+.action {
     display: flex;
     max-width: 1140px;
     margin: 116px auto;
     justify-content: space-between;
 }
-.action-content{
+
+.action-content {
     max-width: 517px;
+    margin: 62.5px 0px;
 }
-.action-title{
+
+.action-title {
     font-size: 42px;
     font-weight: 800;
     color: #252432;
 }
-.action-description{
+
+.action-description {
     font-size: 24px;
-color: rgba(37, 36, 50, 0.5);
+    color: rgba(37, 36, 50, 0.5);
+    margin: 23px 0px;
 }
-.action-img img{
+
+.action-img img {
     border-radius: 48px;
 }
+
 /* action section style end */
 
 /* productive user section  style start*/
 
-.productive{
+.productive {
     max-width: 1140px;
     margin: 0 auto;
-    background-color: rgba(78, 71, 255,0.1);
+    background-color: rgba(78, 71, 255, 0.1);
 }
-.joined-thousand{
+
+.joined-thousand {
     max-width: 856px;
     margin: 0 auto;
     padding: 50px 142px;
 }
-.joind-thousand-title{
+
+.joind-thousand-title {
     font-size: 38px;
     font-weight: 800;
     color: #252432;
     margin-bottom: 0px;
 }
 
-.productive-users{
+.productive-users {
     display: flex;
     justify-content: space-around;
-    margin-top: 0px;
+    margin-top: 40px;
 
 }
-.productive-users h2{
+
+.productive-users h2 {
     font-size: 80px;
     font-weight: 800;
     color: #4E47FF;
     margin-bottom: 5px;
 
 }
-.productive-users p{
+
+.productive-users p {
     font-size: 20px;
-    color: rgb(0, 0, 0,0.5);
+    color: rgb(0, 0, 0, 0.5);
     margin-top: 0px;
 }
+
 /* productive user section  style end*/
 
 
 /* user review section style start */
-.users-say{
+.users-say {
     max-width: 1140px;
     margin: 137px auto;
-    
+    margin-bottom: 97px;
+
 }
-.users-say-title{
+
+.users-say-title {
     font-size: 42px;
     font-weight: 800;
     color: #252432;
 }
-.user-reviews{
+
+.user-reviews {
     display: flex;
     justify-content: space-around;
-    gap:20px;
-    
+    gap: 20px;
+
 }
-.user-review{
+
+.user-review {
     max-width: 366px;
     border-radius: 14px;
-    background-color: rgba(255, 255, 255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid #F2EDED;
+    padding-bottom: 24px;
 }
-.img-div{
+
+.img-div {
     padding: 24px 0px 10px 24px;
 }
-.user-review img{
+
+.user-review img {
     padding-right: 4px;
 }
-.review-title{
+
+.review-title {
     font-size: 20px;
     padding-left: 24px;
 }
-.reveiw-description{
+
+.reveiw-description {
     padding-left: 24px;
 }
-.reviewer-info{
+
+.reviewer-info {
     display: flex;
     align-items: center;
     gap: 6px;
     padding-left: 24px;
 }
-.reviewer-info img{
+
+.reviewer-info img {
     border-radius: 50%;
 }
-.reviewer-name{
+
+.reviewer-name {
     margin-bottom: 0px;
     color: #757575;
 }
-.reviewer-date{
+
+.reviewer-date {
     margin-top: 0px;
     color: #B3B3B3;
 }
@@ -202,77 +242,103 @@ color: rgba(37, 36, 50, 0.5);
 
 /* ready section style start */
 
-.ready-to-focus{
+.ready-to-focus {
     max-width: 1140px;
     margin: 0 auto;
     border-radius: 14px;
     background-color: #FFFFFF;
 }
 
-.ready-title{
+.ready-title {
     font-size: 50px;
     font-weight: bold;
     color: #000000;
 }
-.ready-sub-title{
-    color: rgba(0, 0, 0,0.5);
+
+.ready-sub-title {
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
 }
-.ready-img{
+.ready button{
+    border: 1px solid #FFFFFF;
+}
+
+.ready-img {
     margin: 20px 150px 71px;
-    border-radius:48px;
+    border-radius: 48px;
 }
+
 /* ready section style end */
 
 
 /* get in touch section style start */
-.lets-get-in-touch{
-    max-width:1140px;
+.lets-get-in-touch {
+    max-width: 1140px;
     margin: 0 auto;
     margin-top: 92px;
 }
 
-.get-in-touch{
+.get-in-touch {
     display: flex;
     justify-content: space-between;
 }
-.get-in-touch-content{
-    font-size: 90px;
-    font-weight: bold;
+
+.get-in-touch-content {
+    font-size: 70px;
+    font-weight:800;
     color: #000000;
-    margin-right: 0px;
+    margin: 200px 0px;
+
 }
-.form{
-    
+
+.form {
+    margin: 71px 0px;
 }
-.form label{
+
+.form label {
     font-size: 18px;
     font-weight: 500;
     color: #000000;
-    
+
 }
-.form input{
+
+.form input,textarea {
     display: block;
     font-size: 20px;
-    color: rgba(0, 0, 0,0.5);
-    padding: 20px 245px 20px 32px;
-    margin-top:10px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px 200px 20px 20px;
+    margin-top: 10px;
     margin-bottom: 19px;
     border-radius: 10px;
     background-color: #FFFFFF;
     border: 1px solid #D6DDED;
 }
-.form textarea{
+
+/* .form textarea {
     font-size: 20px;
-    color: rgba(0, 0, 0,0.5);
+    color: rgba(0, 0, 0, 0.5);
     padding-left: 32px;
     padding-top: 20px;
     margin-top: 10px;
     border: 1px solid #D6DDED;
     border-radius: 10px;
-    color:#FFFFFF;
-}
-.form-button{
+    color: #FFFFFF;
+} */
+
+.form-button {
+    width: 100%;
     margin-top: 19px;
-    padding: 19px 210px;
+    padding: 19px 182px;
 }
+
 /* get in touch section style end */
+
+
+/* footer section style start */
+
+.logo-title{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+/* footer section style end */
