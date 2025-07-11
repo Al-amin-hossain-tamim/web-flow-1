@@ -291,6 +291,7 @@ main{
 }
 .ready button{
     border: 1px solid #FFFFFF;
+    font-weight: 500;
 }
 
 .ready-img {
