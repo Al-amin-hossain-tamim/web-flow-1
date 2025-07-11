@@ -40,6 +40,7 @@ body {
     text-align: center;
 }
 
+
 /* shared stye section end */
 
 /* header style  */
@@ -131,6 +132,7 @@ nav li {
     max-width: 1140px;
     margin: 0 auto;
     background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
 }
 
 .joined-thousand {
