@@ -63,6 +63,10 @@ header {
 nav li {
     list-style: none;
 }
+.menu a:hover{
+    background-color: yellow;
+    color: black;
+}
 
 .logo {
     font-size: 34px;
@@ -79,6 +83,10 @@ nav li {
 /* banner section style start */
 .banner {
     padding: 155px 0px;
+}
+.banner button:hover{
+    background-color: yellow;
+    color: black;
 }
 
 .banner-content {
@@ -106,6 +114,10 @@ nav li {
 .action-content {
     max-width: 517px;
     margin: 62.5px 0px;
+}
+.action-content button:hover{
+    background-color: purple;
+    color:green;
 }
 
 .action-title {
@@ -251,6 +263,10 @@ nav li {
     border-radius: 14px;
     background-color: #FFFFFF;
 }
+.ready button:hover{
+    background-color: yellow;
+    color: black;
+}
 
 .ready-title {
     font-size: 50px;
@@ -332,6 +348,10 @@ nav li {
     width: 100%;
     margin-top: 19px;
     padding: 19px 182px;
+}
+.form button:hover{
+    background-color: yellow;
+    color: black;
 }
 
 /* get in touch section style end */
