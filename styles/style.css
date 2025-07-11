@@ -34,6 +34,7 @@ body {
     padding: 12px 36px;
     border-radius: 5px;
     font-weight: 800;
+    border: none;
 }
 
 .text-center {
@@ -197,6 +198,7 @@ nav li {
     font-size: 42px;
     font-weight: 800;
     color: #252432;
+    margin-bottom: 50px;
 }
 
 .user-reviews {
@@ -263,6 +265,9 @@ nav li {
     border-radius: 14px;
     background-color: #FFFFFF;
 }
+.ready{
+    padding-top: 70px;
+}
 .ready button:hover{
     background-color: yellow;
     color: black;
@@ -272,6 +277,7 @@ nav li {
     font-size: 50px;
     font-weight: bold;
     color: #000000;
+    margin-bottom: 20px;
 }
 
 .ready-sub-title {
