@@ -230,10 +230,12 @@ main{
 .review-title {
     font-size: 20px;
     padding-left: 24px;
+    margin-bottom: 8px;
 }
 
 .reveiw-description {
     padding-left: 24px;
+    margin-bottom: 20px;
 }
 
 .reviewer-info {
